@@ -1,5 +1,3 @@
-__version__ = "1.3.1"
-
 from django.db.models.signals import post_delete
 from django.dispatch import receiver
 from tenant_schemas.utils import schema_exists, get_tenant_model
